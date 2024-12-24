@@ -112,21 +112,6 @@
    outline: none;
    background-color: var(--text-color);
   }
-  form > #Login> a{
-    color: #fff;
-    text-decoration: none;
-  }
-  form > #Login > a:hover{
-text-decoration: none;
-  }
-  #Login > a{
-   text-decoration: none;
-   color: var(--accent-color);
-  }
-  > #Login > a:hover{
-   text-decoration: underline;
-  }
-
   @media(max-width:1100px){
    .wrapper{
       width: min(600px, 100%);
