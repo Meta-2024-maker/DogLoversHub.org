@@ -92,7 +92,7 @@
   form input::placeholder{
    color: var(--text-color);
   }
-  form button{
+  form > #Login{
    margin-top: 10px;
    border: none;
    border-radius: 1000px;
@@ -105,25 +105,25 @@
    cursor: pointer;
    transition: 150ms ease;
   }
-  form button:hover{
+  form > #Login:hover{
    background-color: var(--text-color);
   }
-  form button:focus{
+  form > #Login:focus{
    outline: none;
    background-color: var(--text-color);
   }
-  form button a{
+  form > #Login> a{
     color: #fff;
     text-decoration: none;
   }
-  form button a:hover{
+  form > #Login > a:hover{
 text-decoration: none;
   }
-  a{
+  #Login > a{
    text-decoration: none;
    color: var(--accent-color);
   }
-  a:hover{
+  > #Login > a:hover{
    text-decoration: underline;
   }
 
