@@ -19,3 +19,6 @@
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
 
+//inputs
+const email = document.getElementById()
+
