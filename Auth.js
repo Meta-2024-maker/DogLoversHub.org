@@ -20,5 +20,12 @@
   const app = initializeApp(firebaseConfig);
 
 //inputs
-const email = document.getElementById()
+const email = document.getElementById("email-input").value;
+const password = document.getElementById("password-input").value;
 
+//submit button
+const submit = document.getElementById("Login").value
+submit.addEventListener("click",function(event){
+  event.preventDefault()
+  alert(5)
+})
