@@ -105,10 +105,10 @@
    cursor: pointer;
    transition: 150ms ease;
   }
-  form > #Login:hover{
+  form > #submit-inputn:hover{
    background-color: var(--text-color);
   }
-  form > #Login:focus{
+  form > #submit-input:focus{
    outline: none;
    background-color: var(--text-color);
   }
