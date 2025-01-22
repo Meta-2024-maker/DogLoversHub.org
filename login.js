@@ -22,7 +22,7 @@ const email = document.getElementById("email-input").value;
 const password = document.getElementById("password-input").value;
 
 //submit button
-const submit = document.getElementById("Login");
+const submit = document.getElementById("submit-input");
 submit.addEventListener("click", function (event) {
   event.preventDefault()
 
