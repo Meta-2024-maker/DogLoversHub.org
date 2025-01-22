@@ -1,3 +1,4 @@
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
 import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-auth.js";
@@ -38,3 +39,7 @@ submit.addEventListener("click", function (event) {
       const errorCode = error.code;
       const errorMessage = error.message;
       alert(errorMessage)
+    });
+
+})
+
