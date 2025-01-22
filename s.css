@@ -92,7 +92,7 @@
   form input::placeholder{
    color: var(--text-color);
   }
-  form > #Login{
+  form > #submit-input{
    margin-top: 10px;
    border: none;
    border-radius: 1000px;
@@ -105,7 +105,7 @@
    cursor: pointer;
    transition: 150ms ease;
   }
-  form > #submit-inputn:hover{
+  form > #submit-input:hover{
    background-color: var(--text-color);
   }
   form > #submit-input:focus{
